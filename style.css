@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	text-align: center;
+}
+.container{
+	display:grid;
+	grid-template-columns:repeat(3,auto);
+	justify-content:center;
+	/*background:white;*/
+}
+	
+.cell{
+	height:100px;
+	width:100px;
+	background: #f4f4f4;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+		
+.cell:first-child,.cell:nth-child(2),.cell:nth-child(3){
+	border-top:none;
+}
+
+.cell:nth-child(3n+1){
+	border-left:none;
+} 
+.cell:nth-child(3n+3){
+	border-right:none;
+}
+.cell:nth-child(7),.cell:nth-child(8),.cell:last-child
+{
+	border-bottom:none;
+}
+p{
+	display:inline;
+}
