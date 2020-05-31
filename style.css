@@ -10,7 +10,6 @@ body{
 	display:grid;
 	grid-template-columns:repeat(3,auto);
 	justify-content:center;
-	/*background:white;*/
 }
 	
 .cell{
@@ -42,4 +41,13 @@ body{
 }
 p{
 	display:inline;
+}
+.highlightx,.highlighto{
+	color:white;
+}
+.highlightx{
+	background:green;
+}
+.highlighto{
+	background:blue;
 }
