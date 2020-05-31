@@ -43,3 +43,11 @@ body{
 p{
 	display:inline;
 }
+.highlightx{
+	background:green;
+	color:white;
+}
+.highlighto{
+	background:blue;
+	color:white;
+}
